@@ -12,54 +12,78 @@
 <body>
     <!--header-->
     <header>
-        <div>
-            <h1>Nucamp</h1>
-            <h2>a better way to camp</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Nucamp</h1>
+                    <h2>a better way to camp</h2>
+                </div>
+            </div>
+            
         </div>
     </header>
 
     <!--main section-->
-    <main>
+    <main class="container">
+
         <!--discover section-->
-        <section>
-            <h2>Discover & Review</h2>
-            <h3>Our Campsites</h3>
-            <p>Explore our growing database of curated campsites and leave your own reviews!</p>
+        <section class="row">
+            <div class="col-sm-4 col-md-3 order-sm-last">
+                <h2>Discover & Review</h2>
+            </div>
+            <div class="col">
+                <h3>Our Campsites</h3>
+                <p>Explore our growing database of curated campsites and leave your own reviews!</p>
+            </div>
         </section>
+
         <!--Feature Section-->
-        <section>
-            <h2>Featured Campsites</h2>
-            <h3>React Lake Campground</h3>
-            <p>Nestles in the foothills of the Chrome Mountians, this campground on the shores of the pristine React Lake is a favorite for fly fishing.</p>
+        <section class="row">
+            <div class="col-sm-4 col-md-3">
+               <h2>Featured Campsites</h2>
+            </div> 
+            <div class="col">
+                <h3>React Lake Campground</h3>
+                <p>Nestles in the foothills of the Chrome Mountians, this campground on the shores of the pristine React Lake is a favorite for fly fishing.</p>
+            </div>
         </section>
+
         <!--Partner Section-->
-        <section>
-            <h2>Our Community Partners</h2>
-            <h3>Bootstrap Outfitters</h3>
-            <p>Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
+        <section class="row">
+            <div class="col-sm-4 col-md-3 order-sm-last">
+                <h2>Our Community Partners</h2>
+            </div>
+            <div class="col">
+                <h3>Bootstrap Outfitters</h3>
+                <p>Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
+            </div>
         </section>
     </main>
     <!--Footer-->
     <footer>
-        <div>
-            <h5>Links</h5>
-            <uL>
-                <il><a href="#">Home</a></il>
-                <il><a href="#">About</a></il>
-                <il><a href="#">Sites</a></il>
-                <il><a href="#">Contact</a></il>
-            </uL>
-        </div>
-        <div>
-            <h5>Social</h5>
-            <a href="http://instagram.com/">Instagram</a>
-            <a href="http://facebook.com/">Facebook</a>
-            <a href="http://twitter.com/">Twitter</a>
-            <a href="http://youtube.com/">YouTube</a>
-        </div>
-        <div>
-            Tel: 1-206-555-1234<br>
-            Email: campsites#nucamp.com
+        <div class="container">
+            <div class="row">
+                    <div class="col-4 col-sm-2 offset-1">
+                        <h5>Links</h5>
+                        <uL class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Sites</a></li]>
+                            <li><a href="#">Contact</a></li>
+                        </uL>
+                    </div>
+                    <div class="col-6 col-sm-5">
+                        <h5>Social</h5>
+                        <a href="http://instagram.com/">Instagram</a>
+                        <a href="http://facebook.com/">Facebook</a>
+                        <a href="http://twitter.com/">Twitter</a>
+                        <a href="http://youtube.com/">YouTube</a>
+                    </div>
+                    <div class="col-sm-4">
+                        Tel: 1-206-555-1234<br>
+                        Email: campsites#nucamp.com
+                    </div>
+            </div>
         </div>
     </footer>
     <!-- Bootstrap JavaScript plugins -->
