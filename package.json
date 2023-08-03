@@ -1,0 +1,28 @@
+{
+  "name": "nucampsite",
+  "version": "1.0.0",
+  "description": "A fictional campsites review website.",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holiboy1/nucampsiteweb.git"
+  },
+  "keywords": [],
+  "author": "Holiday Roeun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holiboy1/nucampsiteweb/issues"
+  },
+  "homepage": "https://github.com/holiboy1/nucampsiteweb#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "bootstrap": "^5.2.3"
+  }
+}
