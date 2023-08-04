@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/holiboy1/nucampsiteweb#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
     "parcel": "^2.9.3"
   },
   "dependencies": {
